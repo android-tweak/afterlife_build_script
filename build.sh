@@ -7,9 +7,6 @@ git clone https://github.com/android-tweak/local_manifest_afterlife_rosemary --d
 # Set up build environment
 export BUILD_USERNAME=mrsnailo
 export BUILD_HOSTNAME=crave 
-source build/envsetup.sh && 
-echo Repository: android-tweak/crave_aosp_builder
-echo Run ID: 11994763277
- 
+source build/envsetup.sh &&  
 # Build the ROM
 goafterlife rosemary
